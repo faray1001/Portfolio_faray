@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Faray Saleh Abdat — Portfolio</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+  <!-- Animated moving background (pure CSS) -->
+  <div class="bg-anim" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <div class="brand">
+        <div class="logo">F</div>
+        <div class="brand-text">
+          <span class="name">Faray Abdat</span>
+          <small class="subtitle">Full Stack Enthusiast</small>
+        </div>
+      </div>
+
+      <ul class="nav-links" role="menubar">
+        <li><a href="#about">About</a></li>
+        <li><a href="#certificate">Certificate</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#contact" class="btn primary">My Resume</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO / ABOUT (profile + about side-by-side on desktop) -->
+  <main>
+    <section id="about" class="section hero container">
+      <div class="hero-grid">
+        <!-- left: About text -->
+        <div class="about-text">
+          <h1>Hello — I’m <span class="accent">Faray Saleh Abdat</span></h1>
+          <h3 class="role">Full Stack Enthusiast • SMK TI BAZMA</h3>
+          <p class="lead">
+            I build polished, production-ready web experiences that balance design and engineering.
+            I’m 16, love gaming and soccer, and I bring the same discipline to code: consistent, clean, and reliable.
+          </p>
+
+          <div class="meta">
+            <div><strong>Location</strong><span>Indonesia</span></div>
+            <div><strong>Available for</strong><span>Freelance • Collabs</span></div>
+            <div><strong>Contact</strong><span>faray@example.com</span></div>
+          </div>
+
+          <div class="chat-suggestion">
+            <p><strong>Wanna chat?</strong> If you want to talk about projects or collab — send me a message! <em>Simple intro + what you want to build is enough.</em></p>
+            <a class="btn ghost" href="#contact">Message me →</a>
+          </div>
+        </div>
+
+        <!-- right: Profile card (tilt) -->
+        <aside class="about-profile">
+          <div class="profile-card" id="profileCard" aria-label="Profile card with 3D tilt">
+            <div class="profile-inner">
+              <img src="poto.png" alt="Faray Saleh Abdat" class="profile-img">
+              <h4 class="profile-name">Faray Saleh Abdat</h4>
+              <p class="profile-mini">Full Stack Enthusiast</p>
+              <a href="#contact" class="btn primary wide">Contact Me</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- CERTIFICATE -->
+    <section id="certificate" class="section container">
+      <h2 class="section-title">Certificate</h2>
+      <p class="section-sub">Selected certifications & achievements.</p>
+
+      <article class="card-grid">
+        <article class="cert-card">
+          <div class="badge">01</div>
+          <img src="poto.png" alt="Certificate 1" class="cert-img">
+          <h4>Web Development 101</h4>
+          <p>Foundations of HTML, CSS, JavaScript — practical projects.</p>
+      </article>
+
+        <article class="cert-card">
+          <div class="badge">02</div>
+          <h4>UI Basics</h4>
+          <p>Design fundamentals and layout techniques.</p>
+        </article>
+
+        <article class="cert-card">
+          <div class="badge">03</div>
+          <h4>Problem Solving</h4>
+          <p>Algorithmic thinking in building reliable apps.</p>
+        </article>
+
+        <article class="cert-card">
+          <div class="badge">04</div>
+          <h4>Team Project</h4>
+          <p>Collaboration in a real project environment.</p>
+        </article>
+      </article>
+    </section>
+
+    <!-- PROJECT -->
+    <section id="project" class="section container">
+      <h2 class="section-title">Project</h2>
+      <p class="section-sub">Selected projects — polished and production-ready.</p>
+
+      <div class="card-grid">
+        <div class="project-card">
+          <div class="p-thumb"></div>
+          <h4>Portfolio Website</h4>
+          <p>Responsive portfolio with modern UI and animations.</p>
+        </div>
+
+        <div class="project-card">
+          <div class="p-thumb"></div>
+          <h4>Web Game</h4>
+          <p>A small browser game built with JavaScript.</p>
+        </div>
+
+        <div class="project-card">
+          <div class="p-thumb"></div>
+          <h4>School App</h4>
+          <p>Student dashboard for assignments and schedule.</p>
+        </div>
+
+        <div class="project-card">
+          <div class="p-thumb"></div>
+          <h4>Mini E-commerce</h4>
+          <p>Cart, checkout, and product listing UI.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section container">
+      <h2 class="section-title">Experience</h2>
+      <p class="section-sub">What I’ve done so far.</p>
+
+      <div class="timeline">
+        <div class="time-card">
+          <span class="time-year">2024</span>
+          <div class="time-body">
+            <h4>School Capstone</h4>
+            <p>Lead frontend dev — delivered responsive UI & interactivity.</p>
+          </div>
+        </div>
+
+        <div class="time-card">
+          <span class="time-year">2023</span>
+          <div class="time-body">
+            <h4>Team Project</h4>
+            <p>Collaboration and version control workflow experience.</p>
+          </div>
+        </div>
+
+        <div class="time-card">
+          <span class="time-year">2022</span>
+          <div class="time-body">
+            <h4>Learning Phase</h4>
+            <p>Self-study and small projects, web fundamentals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-sub">Interested in working together? Send a short message.</p>
+
+      <div class="contact-grid">
+        <form class="contact-form" action="#" onsubmit="return false;">
+          <label>
+            <span>Your name</span>
+            <input type="text" placeholder="Name" required>
+          </label>
+
+          <label>
+            <span>Your email</span>
+            <input type="email" placeholder="you@mail.com" required>
+          </label>
+
+          <label>
+            <span>Message</span>
+            <textarea rows="5" placeholder="Short intro + what you want to build" required></textarea>
+          </label>
+
+          <button class="btn primary wide" type="submit">Send message</button>
+        </form>
+
+        <aside class="contact-info">
+          <div class="info-card">
+            <h4>Email</h4>
+            <p>faray@example.com</p>
+          </div>
+          <div class="info-card">
+            <h4>Instagram</h4>
+            <p>@yourusername</p>
+          </div>
+
+          <div class="tip">
+            <h4>Chat tip</h4>
+            <p>If you want to chat — start with a short intro and the project idea. I respond faster with clear goals.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Faray Saleh Abdat — All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
